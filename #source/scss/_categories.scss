@@ -1,0 +1,52 @@
+.categories-menu {
+	&__container {}
+
+	&__title {
+		margin-bottom: 30px;
+	}
+
+	&__list {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		@include av('column-gap', 15, 0, $maxWc, $minWc);
+		@include av('row-gap', 30, 20, $maxWc, $minWc)
+	}
+
+	&__li {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		border: 2px solid $darkBrown;
+		@include av('padding', 15, 8, $maxWc, $minWc)
+	}
+
+	@media (max-width: #{$md2 + px}) {
+		&__list {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+
+	@media (max-width: #{$md3 + px}) {
+		&__list {
+			grid-template-columns: repeat(1, 1fr);
+		}
+	}
+}
+
+.catering-item {
+	&__img {
+		width: 100%;
+		border: 2px solid $darkBrown;
+		@include av('margin-bottom', 20, 15, $maxWc, $minWc)
+	}
+
+	&__title {
+		text-align: center;
+		font-size: 20px;
+		line-height: 130%;
+
+		letter-spacing: 0.025em;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+}

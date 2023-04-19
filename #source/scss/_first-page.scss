@@ -1,0 +1,77 @@
+.first-page {
+	&__container {
+		height: auto;
+		display: flex;
+		align-items: center;
+	}
+
+	h1 {
+		@include av('margin-bottom', 30, 10, $maxWc, $md2);
+	}
+
+	&__img {
+		flex: 1 1 auto;
+		@include av('width', 700, 400, $maxWc, $md2);
+		@include av('margin-left', 20, 10, $maxWc, $md2);
+	}
+
+	&__img-mob {
+		display: none;
+		@include av('width', 700, 290, $maxWc, $minWc);
+	}
+
+	&__title {
+		@include av('font-size', 50, 44, $maxWc, $minWc);
+	}
+
+	&__subtitle {
+		@include av('max-width', 480, 300, $maxWc, $md2);
+		letter-spacing: 0.05em;
+		text-transform: capitalize;
+		text-align: left;
+
+		p {
+			margin-bottom: 10px;
+		}
+
+		@include av('margin-bottom', 20, 10, $maxWc, $minWc);
+	}
+
+	&__button {
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 800;
+		@include av('font-size', 20, 16, $maxWc, $minWc);
+		line-height: 27px;
+		letter-spacing: 0.10em;
+
+		color: $creamyBrown;
+		background-color: $lightBrown;
+		display: inline-block;
+		padding: 7px 30px;
+	}
+
+	@media (max-width: #{$md2 + px}) {
+		h1 {
+			margin-bottom: 20px;
+		}
+
+		&__subtitle {
+			max-width: 500px;
+		}
+
+		&__body {
+			margin-top: -5%;
+		}
+
+		&__img {
+			display: none;
+		}
+
+		&__img-mob {
+			display: block;
+			margin: 0 auto;
+			padding-bottom: 15px;
+		}
+	}
+}

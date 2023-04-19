@@ -1,0 +1,76 @@
+.catering-menu {
+	&__container {}
+
+	&__title {
+		margin-bottom: 30px;
+	}
+
+	&__list {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		@include av('column-gap', 15, 0, $maxWc, $minWc);
+		@include av('row-gap', 30, 20, $maxWc, $minWc)
+	}
+
+	&__li {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		border: 2px solid $darkBrown;
+		padding: 15px;
+	}
+
+	@media (max-width: #{$md1 + px}) {
+		&__list {
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+
+	@media (max-width: #{$md2 + px}) {
+		&__list {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+
+	@media (max-width: #{$md3 + px}) {
+		&__list {
+			grid-template-columns: repeat(1, 1fr);
+		}
+	}
+}
+
+.catering-item {
+	&__img {
+		width: 100%;
+		border: 2px solid $darkBrown;
+		margin-bottom: 20px;
+
+	}
+
+	&__title {
+		font-size: 20px;
+		line-height: 130%;
+
+		letter-spacing: 0.025em;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+
+	&__text {
+		margin-bottom: 20px;
+		flex: 1 1 auto;
+
+	}
+
+	&__btn {
+		font-family: 'Avenir Next Condensed';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 120%;
+		letter-spacing: 0.1em;
+		background-color: $creamyBrown;
+		border: 1.5px solid $darkBrown;
+		padding: 5px;
+	}
+}

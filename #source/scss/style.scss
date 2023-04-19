@@ -1,0 +1,125 @@
+@use 'sass:math';
+
+// Импорт файлов
+@import './normalize';
+@import './av';
+
+// Переменные
+$maxWidthContainer: 1180;
+
+$mvc: $maxWidthContainer + px;
+
+$maxWc: 1180;
+$minWc: 320;
+
+$md1: 991.98;
+$md2: 767.98;
+$md3: 479.98;
+$md4: 359.98;
+
+$lightBrown: #5A3300;
+$darkBrown: #3D2A00;
+$creamyBrown: #FFFCEF;
+
+// Шрифты
+@font-face {
+	font-family: 'Avenir Next Condensed';
+	src: url('../fonts/Avenir-Next-Condensed.eot');
+	src: url('../fonts/Avenir-Next-Condensed.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Avenir-Next-Condensed.woff2') format('woff2'),
+		url('../fonts/Avenir-Next-Condensed.woff') format('woff'),
+		url('../fonts/Avenir-Next-Condensed.ttf') format('truetype'),
+		url('../fonts/Avenir-Next-Condensed.svg#Avenir Next Condensed') format('svg');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-VariableFont.eot');
+	src: url('../fonts/OpenSans-VariableFont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/OpenSans-VariableFont.woff2') format('woff2'),
+		url('../fonts/OpenSans-VariableFont.woff') format('woff'),
+		url('../fonts/OpenSans-VariableFont.ttf') format('truetype'),
+		url('../fonts/OpenSans-VariableFont.svg#Open Sans') format('svg');
+}
+
+
+// Подключение шрифтов
+.title {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 800;
+	@include av('font-size', 40, 32, $maxWc, $minWc);
+	line-height: 120%;
+
+	letter-spacing: 0.03em;
+
+	color: #5A3300;
+}
+
+.text {
+	font-family: 'Avenir Next Condensed';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 120%;
+
+	color: #3D2A00;
+}
+
+
+// Основные стили
+body {
+	background-color: $creamyBrown;
+	position: relative;
+}
+
+body.lock {
+	overflow: hidden;
+}
+
+.app {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	overflow: hidden;
+	position: relative;
+
+	&.ab:after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #ffffff3d;
+		backdrop-filter: blur(5px);
+	}
+}
+
+.container {
+	max-width: $mvc;
+	margin: 0px auto;
+	padding: 5px 15px;
+}
+
+.margin-top {
+	@include av('margin-top', 150, 70, $maxWc, $minWc);
+}
+
+.main {
+	@include av('margin-top', 100, 70, $maxWc, $minWc);
+	flex: 1 1 auto;
+	padding-top: 50px;
+}
+
+@import './header';
+@import './slider-settings';
+@import './first-page';
+@import './specials';
+@import './about-us';
+@import './catering';
+@import './categories';
+@import './category';
+@import './gallery';
+@import './reviews';
+@import './footer';

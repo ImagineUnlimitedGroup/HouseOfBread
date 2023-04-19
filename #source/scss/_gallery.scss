@@ -1,0 +1,25 @@
+.gallery {
+	&__container {
+		max-width: 1330px;
+		margin: 0 auto;
+	}
+
+	&__item {
+		height: 450px;
+		border: 2px solid $darkBrown;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__item img {
+		object-fit: cover;
+		height: 100%;
+		width: 100%;
+	}
+
+	&__title {
+		margin-bottom: 20px;
+	}
+}
