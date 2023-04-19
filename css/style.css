@@ -115,7 +115,7 @@ h6 {
   font-weight: 400;
   font-size: 22px;
   line-height: 120%;
-  color: #3D2A00;
+  color: #5A3300;
 }
 
 body {
@@ -920,6 +920,7 @@ body.lock {
   background-color: #FFFCEF;
   border: 1.5px solid #3D2A00;
   padding: 5px;
+  color: #5A3300;
 }
 
 .categories-menu__title {
