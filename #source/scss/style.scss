@@ -108,8 +108,10 @@ body.lock {
 
 .item__img {
 	width: 100%;
+	max-height: 220px;
+	object-fit: cover;
 	border: 1.5px solid $darkBrown;
-	margin-bottom: 20px;
+	@include av('margin-bottom', 20, 15, $maxWc, $minWc)
 }
 
 .main {
