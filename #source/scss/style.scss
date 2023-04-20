@@ -106,6 +106,12 @@ body.lock {
 	@include av('margin-top', 150, 70, $maxWc, $minWc);
 }
 
+.item__img {
+	width: 100%;
+	border: 1.5px solid $darkBrown;
+	margin-bottom: 20px;
+}
+
 .main {
 	@include av('margin-top', 100, 70, $maxWc, $minWc);
 	flex: 1 1 auto;

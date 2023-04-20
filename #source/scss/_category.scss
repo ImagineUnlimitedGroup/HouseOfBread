@@ -36,7 +36,7 @@
 .category-item {
 	&__img {
 		width: 100%;
-		border: 2px solid $darkBrown;
+		border: 1.2px solid $darkBrown;
 		@include av('margin-bottom', 20, 15, $maxWc, $minWc)
 	}
 

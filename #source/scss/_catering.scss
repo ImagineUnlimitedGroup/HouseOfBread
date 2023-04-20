@@ -1,6 +1,4 @@
 .catering-menu {
-	&__container {}
-
 	&__title {
 		margin-bottom: 30px;
 	}
@@ -40,13 +38,6 @@
 }
 
 .catering-item {
-	&__img {
-		width: 100%;
-		border: 2px solid $darkBrown;
-		margin-bottom: 20px;
-
-	}
-
 	&__title {
 		font-size: 20px;
 		line-height: 130%;
