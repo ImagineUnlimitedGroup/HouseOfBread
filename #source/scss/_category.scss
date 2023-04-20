@@ -31,11 +31,39 @@
 	}
 }
 
+.img-constainer {
+	position: relative;
+
+}
+
+.menu-item-note {
+	z-index: 5;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	right: 0;
+	width: 60px;
+	height: 35px;
+	background-color: $lightBrown;
+
+	font-family: 'Open Sans';
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 120%;
+	letter-spacing: 0.025em;
+	text-transform: lowercase;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	color: $creamyBrown;
+}
+
 .category-item {
 	&__img {
-		width: 100%;
-		border: 1.2px solid $darkBrown;
-		@include av('margin-bottom', 20, 15, $maxWc, $minWc)
+		position: relative;
+		display: block;
 	}
 
 	&__body {

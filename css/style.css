@@ -1038,15 +1038,34 @@ body.lock {
   }
 }
 
-.category-item__img {
-  width: 100%;
-  border: 1.2px solid #3D2A00;
-  margin-bottom: 20px;
+.img-constainer {
+  position: relative;
 }
-@media (max-width: 1180px) {
-  .category-item__img {
-    margin-bottom: calc(15px + 5 * ((100vw - 320px) / 860));
-  }
+
+.menu-item-note {
+  z-index: 5;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 35px;
+  background-color: #5A3300;
+  font-family: "Open Sans";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0.025em;
+  text-transform: lowercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFCEF;
+}
+
+.category-item__img {
+  position: relative;
+  display: block;
 }
 .category-item__body {
   display: flex;
