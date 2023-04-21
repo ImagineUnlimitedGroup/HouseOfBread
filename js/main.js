@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		perPage: 4,
 		perMove: 1,
 		type : 'loop',
-		gap: '20px',
+		gap: '10px',
 		breakpoints: {
 			991.98: {
 				perPage: 3,
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		perPage: 3,
 		perMove: 1,
 		type : 'loop',
-		gap: '20px',
+		gap: '10px',
 		breakpoints: {
 			991.98: {
 				perPage: 2,
