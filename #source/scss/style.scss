@@ -17,6 +17,21 @@ $md2: 767.98;
 $md3: 479.98;
 $md4: 359.98;
 
+
+$pm2: 5;
+$pm3: 10;
+$pm4: 20;
+$pm5: 30;
+$pm6: 60;
+$pm7: 120;
+
+$p2: 5px;
+$p3: 10px;
+$p4: 20px;
+$p5: 30px;
+$p6: 60px;
+$p7: 120px;
+
 $lightBrown: #5A3300;
 $darkBrown: #3D2A00;
 $creamyBrown: #FFFCEF;
@@ -85,6 +100,7 @@ body.lock {
 	position: relative;
 
 	&.ab:after {
+		z-index: 40;
 		content: "";
 		position: absolute;
 		top: 0;
@@ -99,11 +115,11 @@ body.lock {
 .container {
 	max-width: $mvc;
 	margin: 0px auto;
-	padding: 5px 15px;
+	padding: $p2 $p3;
 }
 
 .margin-top {
-	@include av('margin-top', 150, 70, $maxWc, $minWc);
+	@include av('margin-top', $pm7, $pm6, $maxWc, $minWc);
 }
 
 .item__img {
@@ -111,13 +127,13 @@ body.lock {
 	max-height: 220px;
 	object-fit: cover;
 	border: 1.5px solid $darkBrown;
-	@include av('margin-bottom', 15, 10, $maxWc, $minWc)
+	@include av('margin-bottom', $pm4, $pm3, $maxWc, $minWc)
 }
 
 .main {
-	@include av('margin-top', 100, 70, $maxWc, $minWc);
+	@include av('margin-top', $pm7, $pm6, $maxWc, $minWc);
 	flex: 1 1 auto;
-	padding-top: 50px;
+	padding-top: $p6;
 }
 
 @import './header';

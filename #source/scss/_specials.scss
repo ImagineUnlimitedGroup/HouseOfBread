@@ -1,11 +1,11 @@
 .specials {
 	&__container {
 		display: grid;
-		column-gap: 20px;
+		column-gap: $p4;
 		grid-template-columns: 4fr 10fr;
 		grid-template-rows: auto auto;
 		margin-left: calc(50% - ($mvc / 2));
-		padding: 5px 0px 5px 15px;
+		padding: $p2 0px $p2 $p3;
 	}
 
 	&__title {
@@ -14,7 +14,7 @@
 		@include av('font-size', 110, 46, $maxWc, $minWc);
 		@include av('line-height', 120, 80, $maxWc, $minWc);
 		letter-spacing: 0.025em;
-		@include av('margin-bottom', 30, 20, $maxWc, $minWc);
+		@include av('margin-bottom', $pm5, $pm4, $maxWc, $minWc);
 	}
 
 	&__subtitle {
@@ -25,8 +25,8 @@
 			text-transform: capitalize;
 			text-align: left;
 			line-height: 120%;
-			margin-bottom: 10px;
-			padding-right: 5px;
+			margin-bottom: $p3;
+			padding-right: $p2;
 		}
 	}
 
@@ -62,7 +62,7 @@
 
 		}
 		&__title {
-			margin-top: 10px;
+			margin-top: $p3;
 		}
 	}
 
@@ -80,7 +80,7 @@
 		&__container {
 			max-width: $mvc;
 			margin: 0px auto;
-			padding: 5px 15px;
+			padding: $p2 $p3;
 		}
 	}
 
@@ -89,7 +89,7 @@
 			margin: 0;
 			padding: 0;
 			margin-left: 0;
-			padding: 5px 0px 5px 15px;
+			padding: $p2 0px $p2 $p4;
 		}
 
 		&__img-mob {
@@ -98,7 +98,7 @@
 
 		&__subtitle {
 			p {
-				padding-right: 5px;
+				padding-right: $p2;
 			}
 		}
 	}

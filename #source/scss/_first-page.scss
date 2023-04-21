@@ -2,17 +2,21 @@
 	&__container {
 		height: auto;
 		display: flex;
-		align-items: center;
+		align-items: top;
+	}
+
+	&__body {
+		@include av('padding-top', $pm6, $pm5, $maxWc, $md2);
 	}
 
 	h1 {
-		@include av('margin-bottom', 30, 10, $maxWc, $md2);
+		@include av('margin-bottom', $pm5, $pm2, $maxWc, $md2);
 	}
 
 	&__img {
 		flex: 1 1 auto;
 		@include av('width', 700, 400, $maxWc, $md2);
-		@include av('margin-left', 20, 10, $maxWc, $md2);
+		@include av('margin-left', $pm4, $pm3, $maxWc, $md2);
 	}
 
 	&__img-mob {
@@ -31,29 +35,29 @@
 		text-align: left;
 
 		p {
-			margin-bottom: 10px;
+			margin-bottom: $p3;
 		}
 
-		@include av('margin-bottom', 20, 10, $maxWc, $minWc);
+		@include av('margin-bottom', $pm4, $pm3, $maxWc, $minWc);
 	}
 
 	&__button {
 		font-family: 'Open Sans';
 		font-style: normal;
 		font-weight: 800;
-		@include av('font-size', 20, 16, $maxWc, $minWc);
+		@include av('font-size', $pm4, $pm3, $maxWc, $minWc);
 		line-height: 27px;
 		letter-spacing: 0.10em;
 
 		color: $creamyBrown;
 		background-color: $lightBrown;
 		display: inline-block;
-		padding: 7px 30px;
+		padding: $p3 $p5;
 	}
 
 	@media (max-width: #{$md2 + px}) {
 		h1 {
-			margin-bottom: 20px;
+			margin-bottom: $p4;
 		}
 
 		&__subtitle {
@@ -61,6 +65,7 @@
 		}
 
 		&__body {
+			padding: 0;
 			margin-top: -5%;
 		}
 
@@ -71,7 +76,7 @@
 		&__img-mob {
 			display: block;
 			margin: 0 auto;
-			padding-bottom: 15px;
+			padding-bottom: $p4;
 		}
 	}
 }

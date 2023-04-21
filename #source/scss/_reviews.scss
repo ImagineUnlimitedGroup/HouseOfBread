@@ -7,7 +7,7 @@
 	&__list {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		gap: 20px;
+		gap: $p4;
 	}
 
 	&__item {
@@ -15,12 +15,12 @@
 		flex-direction: column;
 		align-items: center;
 		height: 460px;
-		padding: 25px;
+		padding: $p4;
 		border: 2px solid $darkBrown;
 	}
 
 	&__title {
-		margin-bottom: 20px;
+		margin-bottom: $p4;
 	}
 }
 
@@ -33,15 +33,15 @@
 	&__stars {
 		display: flex;
 		gap: 5px;
-		margin-bottom: 30px;
+		margin-bottom: $p5;
 	}
 
 	&__text {
-		padding: 5px 15px 5px 5px;
+		padding: $p2 $p4 $p2 $p2;
 		overflow: auto;
 		width: 100%;
 		text-align: start;
-		margin-bottom: 25px;
+		margin-bottom: $p4;
 	}
 
 	&__author {

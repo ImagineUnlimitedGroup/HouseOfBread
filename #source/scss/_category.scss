@@ -6,8 +6,8 @@
 	&__list {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		@include av('column-gap', 15, 0, $maxWc, $minWc);
-		@include av('row-gap', 30, 20, $maxWc, $minWc)
+		@include av('column-gap', $pm4, 0, $maxWc, $minWc);
+		row-gap: $p4;
 	}
 
 	&__li {
@@ -15,7 +15,7 @@
 		display: flex;
 		flex-direction: column;
 		border: 2px solid $darkBrown;
-		@include av('padding', 15, 8, $maxWc, $minWc)
+		@include av('padding', $pm4, $pm3, $maxWc, $minWc)
 	}
 
 	@media (max-width: #{$md2 + px}) {
@@ -52,7 +52,7 @@
 	line-height: 120%;
 	letter-spacing: 0.025em;
 	text-transform: lowercase;
-	
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -70,7 +70,7 @@
 		display: flex;
 		align-items: start;
 		justify-content: space-between;
-		margin-bottom: 20px;
+		margin-bottom: $pm4;
 	}
 
 	&__title {

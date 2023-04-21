@@ -1,5 +1,5 @@
 .footer {
-	@include av('padding-top', 90, 30, $maxWc, $minWc);
+	@include av('padding-top', $pm6, $pm5, $maxWc, $minWc);
 	border-top: 2px solid #3D2A00;
 
 	&__container {
@@ -7,7 +7,7 @@
 		justify-content: space-between;
 		max-width: $maxWc;
 		margin: 0 auto;
-		padding: 5px 15px;
+		padding: $p2 $p3;
 	}
 }
 
@@ -17,13 +17,13 @@
 }
 
 .footer-contacts {
-	margin: 20px 0;
+	margin: $p4 0;
 }
 
 .footer-contact {
-	@include av('margin-bottom', 15, 5, $maxWc, $minWc);
+	@include av('margin-bottom', $pm3, $pm2, $maxWc, $minWc);
 	display: flex;
-	gap: 10px;
+	gap: $p2;
 	align-items: top;
 }
 
@@ -35,7 +35,7 @@
 .footer-contact__icon {
 	width: 24px;
 	height: 24px;
-	margin-top: 3px;
+	margin-top: $p2;
 }
 
 .footer-contact__text {
@@ -52,7 +52,7 @@
 .schedule-item {
 	display: flex;
 	margin-bottom: 5px;
-	column-gap: 10px;
+	column-gap: $p3;
 }
 
 .schedule-item__day {
@@ -65,20 +65,20 @@
 
 .google-map {
 	@include av('width', 600, 450, $maxWc, $minWc);
-	margin-left: 25px;
+	margin-left: $p5;
 	border: 2px solid #3D2A00;
 	overflow: hidden;
 }
 
 .footer__copyright {
-	margin-top: 40px;
+	margin-top: $p5;
 	border-top: 2px solid #3D2A00;
 }
 
 .copyright__container {
 	max-width: 1180px;
 	margin: 0 auto;
-	padding: 10px 15px 20px 15px;
+	padding: $p3 $p4 $p4 $p3;
 	display: flex;
 	align-items: center;
 
@@ -108,7 +108,7 @@
 
 		span {
 			display: block;
-			margin-bottom: 10px;
+			margin-bottom: $p3;
 		}
 	}
 }

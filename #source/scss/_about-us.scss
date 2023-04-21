@@ -1,5 +1,5 @@
 .about-us {
-	@include av('margin-bottom', 70, 20, $maxWc, $minWc);
+	@include av('margin-bottom', $p6, $p4, $maxWc, $minWc);
 
 	&__container {
 		display: flex;
@@ -12,7 +12,7 @@
 	}
 
 	h1 {
-		@include av('margin-bottom', 30, 20, $maxWc, $minWc);
+		@include av('margin-bottom', $p5, $p4, $maxWc, $minWc);
 	}
 
 	&__img {
@@ -34,7 +34,7 @@
 			margin-bottom: 10px;
 		}
 
-		@include av('margin-bottom', 20, 10, $maxWc, $minWc);
+		@include av('margin-bottom', $p4, $p3, $maxWc, $minWc);
 	}
 
 	@media (max-width: #{$md2 + px}) {
@@ -46,7 +46,7 @@
 
 		.img-2 {
 			margin: 0;
-			margin-bottom: 15px;
+			margin-bottom: $p4;
 		}
 
 		.about-us-3 {
@@ -54,7 +54,7 @@
 		}
 
 		h1 {
-			margin-bottom: 20px;
+			margin-bottom: $p4;
 		}
 
 		&__subtitle {
@@ -66,17 +66,17 @@
 
 .img-1 {
 	width: 100vw;
-	@include av('margin-left', 20, 10, $maxWc, $md2);
+	@include av('margin-left', $p4, $p3, $maxWc, $md2);
 }
 
 .img-2 {
-	@include av('margin-right', 20, 10, $maxWc, $md2);
+	@include av('margin-right',$p4, $p3, $maxWc, $md2);
 	margin-bottom: 15px;
 }
 
 .img-3 {
 	order: 1;
-	@include av('margin-left', 20, 10, $maxWc, $md2);
+	@include av('margin-left', $p4, $p3, $maxWc, $md2);
 }
 
 .img-mob {
@@ -93,11 +93,11 @@
 	.img-3 {
 		order: 0;
 		margin: 0;
-		margin-bottom: 15px;
+		margin-bottom: $p4;
 	}
 
 	.img-mob {
 		display: block;
-		margin-bottom: 15px;
+		margin-bottom: $p4;
 	}
 }
