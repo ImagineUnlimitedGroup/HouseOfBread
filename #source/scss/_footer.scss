@@ -1,6 +1,6 @@
 .footer {
 	@include av('padding-top', $pm6, $pm5, $maxWc, $minWc);
-	border-top: 2px solid #3D2A00;
+	border-top: 2px solid $darkBrown;
 
 	&__container {
 		display: flex;
@@ -66,13 +66,13 @@
 .google-map {
 	@include av('width', 600, 450, $maxWc, $minWc);
 	margin-left: $p5;
-	border: 2px solid #3D2A00;
+	border: 2px solid $darkBrown;
 	overflow: hidden;
 }
 
 .footer__copyright {
 	margin-top: $p5;
-	border-top: 2px solid #3D2A00;
+	border-top: 2px solid $darkBrown;
 }
 
 .copyright__container {
