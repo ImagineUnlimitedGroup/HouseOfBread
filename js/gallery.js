@@ -1,0 +1,38 @@
+const photosList = document.getElementById('gallery-slider__list')
+
+let photosAmount = 16
+let sliderPerPage = 4
+// Генерируем все картинки
+for (let i = 1; i <= photosAmount; i++) {
+	let element = document.createElement('li')
+
+	element.classList.add('splide__slide');
+	element.classList.add('gallery__item');
+
+	let template = `<img src="./img/gallery/${i}.png" alt="${i}">`
+	
+	element.innerHTML = template
+	photosList.appendChild(element)
+}
+
+// Инициализация слайдера для галереи
+document.addEventListener('DOMContentLoaded', function () {
+	new Splide('#gallery-slider', {
+		perPage: sliderPerPage,
+		perMove: 1,
+		type : 'loop',
+		gap: '10px',
+		breakpoints: {
+			991.98: {
+				perPage: 3,
+				gap: '10px',
+			},
+			767.98: {
+				perPage: 2,
+			},
+			479.98: {
+				perPage: 1,
+			}
+		},
+	}).mount();
+});
