@@ -35,8 +35,8 @@ let reviewsArr = [
 		author: `John Nguyen`
 	},
 	{
-		text: `Jonathan Orrala`, 
-		author: `So delicious! This is the sort of place where eating dessert first is encouraged :) most of the food items take about 35-40 to come out, but well worth it! Either order ahead or grab yourself one of the delicious desserts as you wait for your main course !`
+		text: `So delicious! This is the sort of place where eating dessert first is encouraged :) most of the food items take about 35-40 to come out, but well worth it! Either order ahead or grab yourself one of the delicious desserts as you wait for your main course !`, 
+		author: `Jonathan Orrala`
 	},
 	{
 		text: `Hi guys. It's amazing food, bread, cake, hot beverage, pastries. We love everything, your guys are amazing especially Katrina, the gentleman also took the order I think he is the owner, and for sure the guys in the kitchen. ❤️❤️`, 
