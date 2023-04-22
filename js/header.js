@@ -13,19 +13,23 @@ const pages = document.querySelectorAll(".menu__link")
 const screenSizeCheck = () => {
 	let screenWidth = document.documentElement.clientWidth
 	if (screenWidth < 767) {
+
 		burger.onclick = function(){
 			HeaderToggleClasses()
 		}
-		
-		
+	
 		document.addEventListener( 'click', (e) => {
 			const withinBoundaries = e.composedPath().includes(header);
 		
 			if ( ! withinBoundaries ) {
-				HeaderToggleClasses()
+				// Так как другие кнопки сйата тоже реагируют на это
+				// Вызываем функцию только если хедер был открыт
+				if (app.classList.contains('ab')) {
+					HeaderToggleClasses()
+				}
 			}
 		})
-	
+
 		pages.forEach(page => (
 			page.onclick = function(){
 				HeaderToggleClasses()
