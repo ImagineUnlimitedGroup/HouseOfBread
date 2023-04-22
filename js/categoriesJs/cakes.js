@@ -125,7 +125,7 @@ cakesArr.forEach(cake => {
 
 	let imgPath = '../img/menu/cakes/cakes.svg'
 
-	if (cake.img.length != 0) {
+	if (cake.img) {
 		imgPath = cake.img
 	}
 
