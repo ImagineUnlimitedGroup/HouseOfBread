@@ -52,7 +52,7 @@ let cakesArr = [
 	{
 		title: `SEA SALT CARAMEL CHEESECAKE`,
 		price: `4.95`,
-		img: `../img/menu/cakes/cremeBruleeCheesecake.png`,
+		img: `../img/menu/cakes/seaSaltCaramelCheesecake.png`,
 		description: `New York cheesecake with a thick swirl of rich caramel and sea salt, topped with Hershey's caramel topping.`
 	},
 	{
@@ -123,9 +123,16 @@ cakesArr.forEach(cake => {
 	id += 1
 	element.id = id;
 
+	let imgPath = '../img/menu/cakes/cakes.svg'
+
+	if (cake.img.length != 0) {
+		console.log(cake.img)
+		imgPath = cake.img
+	}
+
 	let template = `
 <div class="img-container">
-	<img src="${cake.img}" alt="" class="category-item__img item__img ">
+	<img src="${imgPath}" alt="" class="category-item__img item__img ">
 </div>
 <div class="category-item__body">
 	<h3 class="category-item__title title">${cake.title}</h3>
