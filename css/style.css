@@ -1118,9 +1118,10 @@ body.lock {
   .category-item__text {
     display: none;
   }
-  .category-item .active-text {
-    display: block;
-  }
+}
+
+.active-text {
+  display: block;
 }
 
 .gallery__container {

@@ -126,7 +126,6 @@ cakesArr.forEach(cake => {
 	let imgPath = '../img/menu/cakes/cakes.svg'
 
 	if (cake.img.length != 0) {
-		console.log(cake.img)
 		imgPath = cake.img
 	}
 
@@ -145,4 +144,16 @@ cakesArr.forEach(cake => {
 	
 	element.innerHTML = template
 	cakesList.appendChild(element)
+});
+
+
+const categoryItemsArr = document.querySelectorAll('.category-item')
+
+categoryItemsArr.forEach(item => {
+
+	item.addEventListener('click', () => {
+		let description = item.querySelector('.category-item__text')
+
+		description.classList.toggle('active-text')
+	})
 });
