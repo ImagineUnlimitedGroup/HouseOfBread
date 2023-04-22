@@ -122,6 +122,10 @@ body.lock {
 	@include av('margin-top', $pm7, $pm6, $maxWc, $minWc);
 }
 
+.small-margin-top {
+	@include av('margin-top', $pm6, $pm5, $maxWc, $minWc);
+}
+
 .item__img {
 	width: 100%;
 	max-height: 220px;
@@ -137,10 +141,10 @@ body.lock {
 }
 
 @import './header';
-@import './slider-settings';
-@import './first-page';
+@import './sliderSettings';
+@import './firstPage';
 @import './specials';
-@import './about-us';
+@import './aboutUs';
 @import './catering';
 @import './categories';
 @import './category';

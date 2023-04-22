@@ -2,11 +2,11 @@ const categoriesList = document.querySelector('.categories-menu__list')
 
 // Массив с данными всех категорий меню
 let categoriesArr = [
-	{title: 'MADE TO ORDER', imgPath: './img/Categories/Steak.svg', link: './categoriesHtml/made-to-order.html'},
-	{title: 'SALADS', imgPath: './img/Categories/Salad.svg', link: './categoriesHtml/salads.html'},
-	{title: 'PASTRIES', imgPath: './img/Categories/Pastries.svg', link: './categoriesHtml/pastries.html'},
-	{title: 'CAKES', imgPath: './img/Categories/Cakes.svg', link: './categoriesHtml/cakes.html'},
-	{title: 'BEVERAGES', imgPath: './img/Categories/Beverages.svg', link: './categoriesHtml/beverages.html'}
+	{title: 'MADE TO ORDER', imgPath: './img/menu/madeToOrder/steak.svg', link: './categoriesHtml/madeToOrder.html'},
+	{title: 'SALADS', imgPath: './img/menu/salads/salad.svg', link: './categoriesHtml/salads.html'},
+	{title: 'PASTRIES', imgPath: './img/menu/pastries/pastries.svg', link: './categoriesHtml/pastries.html'},
+	{title: 'CAKES', imgPath: './img/menu/cakes/cakes.svg', link: './categoriesHtml/cakes.html'},
+	{title: 'BEVERAGES', imgPath: './img/menu/beverages/beverages.svg', link: './categoriesHtml/beverages.html'}
 ]
 
 // Генерируем все карточки
