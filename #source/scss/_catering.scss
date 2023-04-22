@@ -66,8 +66,10 @@
 		letter-spacing: 0.10em;
 
 		color: $creamyBrown;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		background-color: $lightBrown;
-		display: inline-block;
 		padding: $p2 $p5;
 	}
 
