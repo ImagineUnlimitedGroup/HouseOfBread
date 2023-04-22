@@ -602,11 +602,11 @@ body.lock {
   color: #FFFCEF;
   background-color: #5A3300;
   display: inline-block;
-  padding: 10px 30px;
+  padding: 5px 30px;
 }
 @media (max-width: 1180px) {
   .first-page__button {
-    font-size: calc(10px + 10 * ((100vw - 320px) / 860));
+    font-size: calc(16px + 4 * ((100vw - 320px) / 860));
   }
 }
 @media (max-width: 767.98px) {
@@ -626,7 +626,7 @@ body.lock {
   .first-page__img-mob {
     display: block;
     margin: 0 auto;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
 }
 
