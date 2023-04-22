@@ -722,7 +722,7 @@ body.lock {
   .specials__container {
     max-width: 1180px;
     margin: 0px auto;
-    padding: 5px 10px;
+    padding: 5px 0px 5px 10px;
   }
 }
 @media (max-width: 767.98px) {
@@ -730,7 +730,7 @@ body.lock {
     margin: 0;
     padding: 0;
     margin-left: 0;
-    padding: 5px 0px 5px 20px;
+    padding: 5px 0px 5px 10px;
   }
   .specials__img-mob {
     width: 100%;

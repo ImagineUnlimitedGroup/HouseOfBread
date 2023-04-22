@@ -80,7 +80,7 @@
 		&__container {
 			max-width: $mvc;
 			margin: 0px auto;
-			padding: $p2 $p3;
+			padding: $p2 0px $p2 $p3;
 		}
 	}
 
@@ -89,7 +89,7 @@
 			margin: 0;
 			padding: 0;
 			margin-left: 0;
-			padding: $p2 0px $p2 $p4;
+			padding: $p2 0px $p2 $p3;
 		}
 
 		&__img-mob {
