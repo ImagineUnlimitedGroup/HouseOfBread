@@ -46,7 +46,7 @@ let cakesArr = [
 	{
 		title: `CREME BRULEE CHEESECAKE`,
 		price: `4.75`,
-		img: `../img/menu/cakes`,
+		img: `../img/menu/cakes/cremeBruleeCheesecake.png`,
 		description: `Layered crème brulee with the lightest of cheesecakes, hand fired and mirrored with burnt caramel. `
 	},
 	{
