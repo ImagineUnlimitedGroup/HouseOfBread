@@ -889,7 +889,7 @@ body.lock {
   display: flex;
   flex-direction: column;
   border: 2px solid #3D2A00;
-  padding: 20px;
+  padding: 10px;
 }
 @media (max-width: 991.98px) {
   .catering-menu__list {
@@ -1035,7 +1035,7 @@ body.lock {
   }
 }
 
-.img-constainer {
+.img-container {
   position: relative;
 }
 
@@ -1075,6 +1075,7 @@ body.lock {
   line-height: 130%;
   display: flex;
   align-items: flex-end;
+  justify-content: center;
   letter-spacing: 0.025em;
   text-transform: uppercase;
 }

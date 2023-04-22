@@ -31,7 +31,7 @@
 	}
 }
 
-.img-constainer {
+.img-container {
 	position: relative;
 
 }
@@ -79,6 +79,7 @@
 
 		display: flex;
 		align-items: flex-end;
+		justify-content: center;
 		letter-spacing: 0.025em;
 		text-transform: uppercase;
 	}
