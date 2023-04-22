@@ -123,6 +123,8 @@ cakesArr.forEach(cake => {
 	id += 1
 	element.id = id;
 
+	let imgPath = '../img/menu/cakes/cakes.svg'
+
 	let template = `
 <div class="img-container">
 	<img src="${imgPath}" alt="${imgPath}" class="category-item__img item__img ">
