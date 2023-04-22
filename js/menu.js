@@ -19,7 +19,7 @@ categoriesArr.forEach(category => {
 	let template = `
 <a href="${category.link}">
 	<img src="${category.imgPath}" alt="" class="item__img">
-	<h3 class="category-item__title title">${category.title}</h3>
+	<h3 class="categories-item__title title">${category.title}</h3>
 </a>
 	`
 	

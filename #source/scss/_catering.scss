@@ -43,6 +43,10 @@
 		line-height: 130%;
 
 		letter-spacing: 0.025em;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
 		text-transform: uppercase;
 		margin-bottom: $p4;
 	}

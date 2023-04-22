@@ -922,6 +922,10 @@ body.lock {
   font-size: 20px;
   line-height: 130%;
   letter-spacing: 0.025em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -989,16 +993,16 @@ body.lock {
   }
 }
 
-.category-item__img {
+.categories-item__img {
   width: 100%;
   margin-bottom: 20px;
 }
 @media (max-width: 1180px) {
-  .category-item__img {
+  .categories-item__img {
     margin-bottom: calc(10px + 10 * ((100vw - 320px) / 860));
   }
 }
-.category-item__title {
+.categories-item__title {
   text-align: center;
   font-size: 20px;
   line-height: 130%;
@@ -1086,9 +1090,11 @@ body.lock {
   line-height: 130%;
   display: flex;
   align-items: flex-end;
-  justify-content: center;
+  text-align: start;
   letter-spacing: 0.025em;
   text-transform: uppercase;
+  padding-right: 20px;
+  margin-bottom: 10px;
 }
 .category-item__price {
   font-size: 20px;
