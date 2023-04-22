@@ -125,7 +125,7 @@ cakesArr.forEach(cake => {
 
 	let template = `
 <div class="img-container">
-	<img src="../img/menu/cakes/cakes.svg" alt="" class="category-item__img item__img ">
+	<img src="${cake.img}" alt="" class="category-item__img item__img ">
 </div>
 <div class="category-item__body">
 	<h3 class="category-item__title title">${cake.title}</h3>
