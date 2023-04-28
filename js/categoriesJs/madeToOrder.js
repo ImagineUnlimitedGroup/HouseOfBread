@@ -42,7 +42,7 @@ let itemsArr = [
 		title: `AJARSKI KHACHAPURI WITH TOMATO`,
 		note: `20 min`,
 		price: `17.49`,
-		img: `../img/menu/madeToOrder/6.png`,
+		img: `../img/menu/madeToOrder/1.png`,
 		description: `A baked bread with feta and mozzarella cheese, topped with two easy-baked eggs, and lined with a seasoned tomato scramble. `
 	},
 	{
@@ -56,7 +56,7 @@ let itemsArr = [
 		title: `MEGRULI KHACHAPURI`,
 		note: `25 min`,
 		price: `16.99`,
-		img: `../img/menu/madeToOrder/8.png`,
+		img: `../img/menu/madeToOrder/6.png`,
 		description: `A round, baked bread stuffed with a Greek feta, mozzarella, and egg mixture.`
 	},
 	{
@@ -91,7 +91,7 @@ let itemsArr = [
 		title: `ICHLI KYUFTA`,
 		note: `6 pieces / 25 min`,
 		price: `16.00`,
-		img: `../img/menu/madeToOrder/8.png`,
+		img: `../img/menu/madeToOrder/5.png`,
 		description: `Boiled meat-stuffed bulgur.`
 	},
 	{
@@ -133,7 +133,7 @@ let itemsArr = [
 		title: `PORK SHASHLIK / KHOROVATS`,
 		note: `4-5 pieces / 1 lb`,
 		price: `8.99`,
-		img: `../img/menu/madeToOrder/8.png`,
+		img: `../img/menu/madeToOrder/7.png`,
 		description: `MINIMUM 8 POUND ORDER REQUIRED. WEEKENDS ONLY. Price is for raw weight.`
 	},
 	{
