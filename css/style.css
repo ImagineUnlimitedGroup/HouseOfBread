@@ -586,7 +586,6 @@ body.lock {
 .first-page__subtitle {
   max-width: 480px;
   letter-spacing: 0.05em;
-  text-transform: capitalize;
   text-align: left;
   margin-bottom: 20px;
 }
@@ -683,7 +682,6 @@ body.lock {
 }
 .specials__subtitle p {
   letter-spacing: 0.05em;
-  text-transform: capitalize;
   text-align: left;
   line-height: 120%;
   margin-bottom: 10px;

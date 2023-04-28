@@ -32,7 +32,6 @@
 	&__subtitle {
 		@include av('max-width', 480, 300, $maxWc, $md2);
 		letter-spacing: 0.05em;
-		text-transform: capitalize;
 		text-align: left;
 
 		p {
