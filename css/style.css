@@ -1017,14 +1017,7 @@ body.lock {
 }
 
 .main {
-  margin-top: 120px;
-  flex: 1 1 auto;
-  padding-top: 90px;
-}
-@media (max-width: 1180px) {
-  .main {
-    margin-top: calc(60px + 60 * ((100vw - 320px) / 860));
-  }
+  padding-top: 120px;
 }
 
 .bread-crumbs {

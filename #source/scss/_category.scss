@@ -1,7 +1,5 @@
 .main {
-	@include av('margin-top', $pm7, $pm6, $maxWc, $minWc);
-	flex: 1 1 auto;
-	padding-top: $p6 + 30px;
+	padding-top: $p7;
 }
 
 .bread-crumbs {
