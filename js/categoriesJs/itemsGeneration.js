@@ -1,12 +1,16 @@
 let id = 0
+
 // Генерируем все карточки
 itemsArr.forEach(item => {
 	let element = document.createElement('li')
 
+	// Присваиваем нужные классы
 	element.classList.add('category-menu__li');
 	element.classList.add('category-item');
 
+	// Проверка на пустую заметку
 	let itemNote = ''
+
 	if(item.note != '') {
 		itemNote = `<span class="menu-item-note">${item.note}</span>`
 	}
@@ -25,17 +29,29 @@ itemsArr.forEach(item => {
 </p>
 	`
 	
+	//Вводим сгенерированный шаблон кода
 	element.innerHTML = template
 	itemsList.appendChild(element)
 });
 
 
+// Обюработка открытий карточек
 const categoryItemsArr = document.querySelectorAll('.category-item')
 
 categoryItemsArr.forEach(item => {
 	item.addEventListener('click', () => {
-		let description = item.querySelector('.category-item__text')
 
-		description.classList.toggle('active-text')
+		// Перед тем как открыть описание одной карточки
+		// закрываем все остальные
+		categoryItemsArr.forEach(item => {
+			let description = item.querySelector('.category-item__text')
+			description.classList.remove('active-text')
+		})
+
+		let currentDescription = item.querySelector('.category-item__text')
+
+		currentDescription = item.querySelector('.category-item__text')
+
+		currentDescription.classList.toggle('active-text')
 	})
 });

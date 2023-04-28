@@ -139,7 +139,7 @@ let itemsArr = [
 	{
 		title: `PORK BABYBACK RIBS SHASHLIK / KHOROVATS`,
 		note: `3-4 pieces / 1 lb`,
-		price: ``,
+		price: `8.99`,
 		img: `../img/menu/madeToOrder/2.png`,
 		description: `MINIMUM 8 POUND ORDER REQUIRED. WEEKENDS ONLY. Price is for raw weight.`
 	}
