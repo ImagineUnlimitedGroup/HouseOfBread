@@ -36,7 +36,7 @@ itemsArr.forEach(item => {
 
 
 // Обюработка открытий карточек
-const categoryItemsArr = document.querySelectorAll('.category-item')
+let categoryItemsArr = document.querySelectorAll('.category-item')
 
 categoryItemsArr.forEach(item => {
 	item.addEventListener('click', () => {
@@ -52,6 +52,7 @@ categoryItemsArr.forEach(item => {
 
 		currentDescription = item.querySelector('.category-item__text')
 
+		console.log(1)
 		currentDescription.classList.toggle('active-text')
 	})
 });

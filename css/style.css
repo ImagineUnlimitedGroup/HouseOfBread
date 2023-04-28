@@ -1016,6 +1016,29 @@ body.lock {
   margin-bottom: 20px;
 }
 
+.main {
+  margin-top: 120px;
+  flex: 1 1 auto;
+  padding-top: 90px;
+}
+@media (max-width: 1180px) {
+  .main {
+    margin-top: calc(60px + 60 * ((100vw - 320px) / 860));
+  }
+}
+
+.bread-crumbs {
+  border-top: 2px solid #3D2A00;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.bread-crumbs__container {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+}
+
 .category-menu__title {
   margin-bottom: 30px;
 }

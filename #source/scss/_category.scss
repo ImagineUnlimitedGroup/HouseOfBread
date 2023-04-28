@@ -1,3 +1,22 @@
+.main {
+	@include av('margin-top', $pm7, $pm6, $maxWc, $minWc);
+	flex: 1 1 auto;
+	padding-top: $p6 + 30px;
+}
+
+.bread-crumbs {
+	border-top: 2px solid $darkBrown;
+	padding-top: $p2;
+	padding-bottom: $p2;
+}
+
+.bread-crumbs__container {
+	display: flex;
+	justify-content: start;
+	gap: $p3;
+}
+
+
 .category-menu {
 	&__title {
 		margin-bottom: 30px;
@@ -106,6 +125,8 @@
 		&__text {
 			display: none;
 		}
+
+
 	}
 }
 
