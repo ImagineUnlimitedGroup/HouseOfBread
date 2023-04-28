@@ -16,9 +16,11 @@ categoriesArr.forEach(category => {
 	element.classList.add('categories-menu__li');
 	element.classList.add('categories-item');
 
+	imgPath = './img/main.svg'
+
 	let template = `
 <a href="${category.link}">
-	<img src="${category.imgPath}" alt="" class="item__img">
+	<img src="${category.imgPath}" alt="" onError="this.src='${imgPath}'" class="item__img">
 	<h3 class="categories-item__title title">${category.title}</h3>
 </a>
 	`

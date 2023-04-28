@@ -9,7 +9,9 @@ for (let i = 1; i <= photosAmount; i++) {
 	element.classList.add('splide__slide');
 	element.classList.add('gallery__item');
 
-	let template = `<img src="./img/gallery/${i}.png" alt="${i}">`
+	imgPath = './img/icons/logo.png'
+	
+	let template = `<img src="./img/gallery/${i}.png" alt="${i}" onError="this.src='${imgPath}'">`
 	
 	element.innerHTML = template
 	photosList.appendChild(element)
