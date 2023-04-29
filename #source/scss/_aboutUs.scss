@@ -5,7 +5,7 @@
 	}
 
 	&__item {
-		height: 450px;
+		@include av('height', 450, 350, $maxWc, $minWc);
 		border: 2px solid $darkBrown;
 		overflow: hidden;
 		display: flex;

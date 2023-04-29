@@ -14,7 +14,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		height: 460px;
+		@include av('height', 460, 380, $maxWc, $minWc);
 		padding: $p4;
 		border: 2px solid $darkBrown;
 	}
@@ -34,15 +34,16 @@
 		display: flex;
 		gap: 5px;
 		margin-bottom: $p5;
+		@include av('margin-bottom', $pm5, $pm3, $maxWc, $minWc);
 	}
 
 	&__text {
 		padding: $p2 $p4 $p2 $p2;
 		overflow: auto;
 		width: 100%;
-		max-height: 75%;
+		max-height: 80%;
 		text-align: start;
-		margin-bottom: $p5;
+		@include av('margin-bottom', $pm5, $pm4, $maxWc, $minWc);
 	}
 
 	&__author {

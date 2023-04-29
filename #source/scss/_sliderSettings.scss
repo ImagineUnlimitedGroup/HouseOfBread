@@ -1,7 +1,7 @@
 .splide__pagination {
 	bottom: 0;
 	position: relative;
-	padding-top: $p4;
+	@include av('padding-top', $pm4, $pm3, $maxWc, $minWc);
 	display: flex;
 	align-items: center;
 
