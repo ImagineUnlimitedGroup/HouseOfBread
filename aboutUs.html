@@ -62,37 +62,61 @@
 			</div>
 		</header>
 		<main class="main">
-			<section class="about-us">
-				<div class="about-us__container container">
-					<div class="about-us__body">
-						<h1 class="about-us__title title">About Us</h1>
-						<img src="./img/AboutUs/About Us 3.png" alt="Bread" class="about-us__img img-mob">
-						<div class="about-us__text">
+			<section class="first-page">
+				<div class="first-page__container container">
+					<div class="first-page__body">
+						<h1 class="first-page__title title">About Us</h1>
+						<img src="./img/main.svg" alt="Bread" class="first-page__img-mob">
+						<div class="first-page__subtitle">
 							<p class="text">For so long, we hadn’t come across an Armenian bakery. Until now.</p>
 							<p class="text">We wanted to create a business that would put a smile on your face - because we care about you.</p>
 						</div>
 					</div>
-					<img src="./img/AboutUs/About Us 3.png" alt="Bread" class="about-us__img img-1">
+					<img src="./img/main.svg" alt="Bread" class="first-page__img">
 				</div>
 			</section>
-			<section class="about-us">
-				<div class="about-us__container about-us-2 container ">
-					<img src="./img/AboutUs/About Us 2.png" alt="Bread" class="about-us__img img-2">
-					<div class="about-us__text">
-						<p class="text">For so long, we hadn’t come across an Armenian bakery. Until now.</p>
-						<p class="text">We wanted to create a business that would put a smile on your face - because we care about you.</p>
-				</div>
+			<section class="specials margin-top">
+				<div class="specials__container">
+					<img src="./img/specials/specials.png" alt="Specials" class="specials__img-mob">
+						<h2 class="specials__title title">Always Fresh</h2>
+						<div class="specials__subtitle">
+							<p class="text">
+								Our mission is to add our culture to this diverse community and bring people of all ethnicities together.
+							</p>
+							<p class="text">
+								We’d like to offer something different than what the community is used to because we are proud of our heritage and want you to be a part of it.
+							</p>
+							<p class="text">
+								Scrumptious pastries, artisan breads, and Armenian favorites - you’ll simply find them irresistible. We want you coming back for more. Because we are good at what we do.
+							</p>
+							<p class="text">
+								We’re telling you, it's worth the calories.
+							</p>
+						</div>
+						<img src="./img/specials/aboutUs.png" alt="Specials" class="specials__img">
 				</div>
 			</section>
-			<section class="about-us">
-				<div class="about-us__container about-us-3 container ">
-					<img src="./img/AboutUs/About Us 1.png" alt="Bread" class="about-us__img img-3">
-					<div class="about-us__text">
-						<p class="text">Scrumptious pastries, artisan breads, and Armenian favorites - you’ll simply find them irresistible. We want you coming back for more. Because we are good at what we do.</p>
-						<p class="text">We’re telling you, it's worth the calories.</p>
+			<div class="gallery margin-top">
+				<div id="gallery-slider" class="splide gallery__container">
+					<div class="container">
+						<div class="splide__arrows">
+							<button class="splide__arrow splide__arrow--prev">
+								<img src="./img/icons/sliderArrow.svg" alt="">
+							</button>
+							<button class="splide__arrow splide__arrow--next">
+								<img src="./img/icons/sliderArrow.svg" alt="">
+							</button>
+						</div>
+	
+						<h2 class="gallery__title title">Gallery</h2>
+	
+						<div class="splide__track">
+							<ul id="gallery-slider__list" class="splide__list">
+							</ul>
+						</div>
+					</div>
 				</div>
-				</div>
-			</section>
+			</div>
 		</main>
 		<footer id="contacts" class="footer margin-top">
 			<div class="footer__container container">
@@ -149,6 +173,7 @@
 	</script>
 	</div>
 	<script src="./js/header.js"></script>
+	<script src="./js/gallery.js"></script>
 	<script src="./js/about-us.js"></script>
 	<script src="./js/footer.js"></script>
 </body>

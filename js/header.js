@@ -9,7 +9,11 @@ const main = document.querySelector(".main")
 const body = document.querySelector("body")
 const header = document.querySelector(".header")
 const pages = document.querySelectorAll(".menu__link")
+const breadCrumbs = document.querySelector('.bread-crumbs')
 
+
+// Вызываем функцию бургера только на мобильных устройствах чтобы избежать 
+// блюра при нажатии всех кнопок
 const screenSizeCheck = () => {
 	let screenWidth = document.documentElement.clientWidth
 	if (screenWidth < 767) {
@@ -48,7 +52,13 @@ const screenSizeCheck = () => {
 				menu.classList.toggle("ab");
 				container.classList.toggle("ab");
 				contacts.classList.toggle("ab");
+
+				// Проверка на наличие хлебных крошек
+				if (header.contains(breadCrumbs)) {
+					breadCrumbs.classList.toggle("ab")
+				}
 		}
 	}
 }
+
 screenSizeCheck()

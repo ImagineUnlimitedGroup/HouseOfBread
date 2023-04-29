@@ -33,26 +33,3 @@ itemsArr.forEach(item => {
 	element.innerHTML = template
 	itemsList.appendChild(element)
 });
-
-
-// Обюработка открытий карточек
-let categoryItemsArr = document.querySelectorAll('.category-item')
-
-categoryItemsArr.forEach(item => {
-	item.addEventListener('click', () => {
-
-		// Перед тем как открыть описание одной карточки
-		// закрываем все остальные
-		categoryItemsArr.forEach(item => {
-			let description = item.querySelector('.category-item__text')
-			description.classList.remove('active-text')
-		})
-
-		let currentDescription = item.querySelector('.category-item__text')
-
-		currentDescription = item.querySelector('.category-item__text')
-
-		console.log(1)
-		currentDescription.classList.toggle('active-text')
-	})
-});
