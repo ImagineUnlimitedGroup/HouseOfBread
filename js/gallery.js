@@ -9,7 +9,7 @@ for (let i = 1; i <= photosAmount; i++) {
 	element.classList.add('splide__slide');
 	element.classList.add('gallery__item');
 
-	imgPath = './img/icons/logo.png'
+	imgPath = './img/404V.svg'
 	
 	let template = `<img src="./img/gallery/${i}.png" alt="${i}" onError="this.src='${imgPath}'">`
 	

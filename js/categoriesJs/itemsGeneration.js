@@ -18,7 +18,7 @@ itemsArr.forEach(item => {
 	let template = `
 <div class="img-container">
 	${itemNote}
-	<img src="${item.img}" alt="" onError="this.src='${imgPath}'" class="category-item__img item__img ">
+	<img src="${item.img}" alt="" class="category-item__img item__img " onError="this.src='../img/404H.svg'">
 </div>
 <div class="category-item__body">
 	<h3 class="category-item__title title">${item.title}</h3>
