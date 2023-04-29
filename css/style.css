@@ -893,6 +893,7 @@ body.lock {
   }
   .mob-active p {
     padding: 0px 10px 0px 10px;
+    margin-bottom: 10px;
   }
   .mob-active .always-fresh__title {
     margin-top: 20px;
