@@ -766,17 +766,17 @@ body.lock {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 1180px) {
-  .aboutUS__item {
-    height: calc(400px + 50 * ((100vw - 320px) / 860));
-  }
-}
 .aboutUS__item img {
   height: 100%;
   width: 100%;
 }
 .aboutUS__title {
   margin-bottom: 20px;
+}
+@media (max-width: 359.98px) {
+  .aboutUS__item {
+    height: 400px;
+  }
 }
 
 .always-fresh__container {
