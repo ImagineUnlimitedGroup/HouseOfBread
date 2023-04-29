@@ -768,7 +768,7 @@ body.lock {
 }
 @media (max-width: 1180px) {
   .aboutUS__item {
-    height: calc(350px + 100 * ((100vw - 320px) / 860));
+    height: calc(400px + 50 * ((100vw - 320px) / 860));
   }
 }
 .aboutUS__item img {
@@ -1179,7 +1179,7 @@ body.lock {
 }
 @media (max-width: 1180px) {
   .gallery__item {
-    height: calc(350px + 100 * ((100vw - 320px) / 860));
+    height: calc(400px + 50 * ((100vw - 320px) / 860));
   }
 }
 .gallery__item img {
