@@ -35,11 +35,12 @@
 .footer-contact__icon {
 	width: 24px;
 	height: 24px;
-	margin-top: $p2;
 }
+
 
 .footer-contact__text {
 	font-size: 20px;
+	min-height: 24px;
 }
 
 .schedule {

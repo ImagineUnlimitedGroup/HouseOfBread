@@ -7,14 +7,14 @@ let itemsArr = [
 		title: `CHOCOLATE TEMPTATION`,
 		note: ``,
 		price: `4.25`,
-		img: `../img/menu/cakes/1.png`,
+		img: `../img/menu/cakes/temtation.png`,
 		description: `Layers of chocolate cake made with cocoa from Ecuador, filled with chocolate and hazelnut creams and hazelnut crunch, covered with a chocolate glaze.`
 	},
 	{
 		title: `RICOTTA PISTACHIO CAKE`,
 		note: ``,
 		price: `4.50`,
-		img: `../img/menu/cakes/2.png`,
+		img: `../img/menu/cakes/ricotta.png`,
 		description: `Pistachio and ricotta creams separated by sponge cake, decorated with pistachio pieces and dusted with powdered sugar.`
 	},
 	{
@@ -49,14 +49,14 @@ let itemsArr = [
 		title: `SELVA NERA CAKE`,
 		note: ``,
 		price: `4.50`,
-		img: `../img/menu/cakes/7.png`,
+		img: `../img/menu/cakes/selvaNera.png`,
 		description: `Chocolate sponge cake surrounds a layer of chocolate and Chantilly cream, studded with Amarena cherries, separated by white sponge cake and decorated with a chocolate ribbon. `
 	},
 	{
 		title: `CREME BRULEE CHEESECAKE`,
 		note: ``,
 		price: `4.75`,
-		img: `../img/menu/cakes/8.png`,
+		img: `../img/menu/cakes/cremeBrulee.png`,
 		description: `Layered crème brulee with the lightest of cheesecakes, hand fired and mirrored with burnt caramel. `
 	},
 	{
@@ -70,14 +70,14 @@ let itemsArr = [
 		title: `WHITE CHOCOLATE RASPBERRY CHEESECAKE`,
 		note: ``,
 		price: `4.50`,
-		img: `../img/menu/cakes/10.png`,
+		img: `../img/menu/cakes/raspberry.png`,
 		description: `A smooth white chocolate cheesecake swirled with fresh raspberry puree.`
 	},
 	{
 		title: `CHOCOLATE GANACHE CHEESECAKE`,
 		note: ``,
 		price: `4.25`,
-		img: `../img/menu/cakes/1.png`,
+		img: `../img/menu/cakes/ganache.png`,
 		description: `New York style cheesecake topped with a thick, rich layer of chocolate ganache, sits on a chocolate sponge cake base, all coated with chocolate sponge cake crumbs. `
 	},
 	{
@@ -91,7 +91,7 @@ let itemsArr = [
 		title: `NEW YORK CHEESECAKE`,
 		note: ``,
 		price: `4.25`,
-		img: `../img/menu/cakes/3.png`,
+		img: `../img/menu/cakes/newYork.png`,
 		description: `New York cheesecake flavored with a hint of Bourbon vanilla, on a sponge cake base. `
 	},
 	{

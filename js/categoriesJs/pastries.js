@@ -4,66 +4,66 @@ let imgPath = '../img/menu/pastries/pastries.svg'
 
 let itemsArr = [
 	{
-		title: `Cappuchino`,
+		title: `KHACHAPURI - CHEESE`,
+		note: ``,
+		price: `3.25`,
+		img: `../img/menu/pastries/khachapuriCheese.png`,
+		description: `Light puff pastry stuffed with seasoned cheese.`
+	},
+	{
+		title: `KHACHAPURI - HALAL BEEF`,
+		note: ``,
+		price: `3.45`,
+		img: `../img/menu/pastries/khachapuriBeef.png`,
+		description: `Light puff pastry stuffed with seasoned ground beef.`
+	},
+	{
+		title: `KHACHAPURI - POTATO`,
+		note: ``,
+		price: `3.25`,
+		img: `../img/menu/pastries/khachapuriPotato.png`,
+		description: `Light puff pastry stuffed with seasoned mashed potatoes.`
+	},
+	{
+		title: `PERASHKI - HALAL BEEF`,
 		note: ``,
 		price: `4.25`,
-		img: `../img/menu/cakes/2.png`,
-		description: `Layers of chocolate cake made with cocoa from Ecuador, filled with chocolate and hazelnut creams and hazelnut crunch, covered with a chocolate glaze.`
+		img: `../img/menu/pastries/perashkiBeef.png`,
+		description: `Deep-fried bread stuffed with seasoned halal ground beef.`
 	},
 	{
-		title: `Latte`,
-		note: ``,
-		price: `4.00`,
-		img: `../img/menu/cakes/3.png`,
-		description: `Layers of chocolate cake made with cocoa from Ecuador, filled with chocolate and hazelnut creams and hazelnut crunch, covered with a chocolate glaze.`
-	},
-	{
-		title: `Flat White`,
-		note: ``,
-		price: `5.00`,
-		img: `../img/menu/cakes/5.png`,
-		description: `Layers of chocolate cake made with cocoa from Ecuador, filled with chocolate and hazelnut creams and hazelnut crunch, covered with a chocolate glaze.`
-	},
-	{
-		title: `Mocha`,
-		note: ``,
-		price: `4.25`,
-		img: `../img/menu/cakes/7.png`,
-		description: `Layers of chocolate cake made with cocoa from Ecuador, filled with chocolate and hazelnut creams and hazelnut crunch, covered with a chocolate glaze.`
-	},
-	{
-		title: `Espresso`,
+		title: `PERASHKI - POTATO`,
 		note: ``,
 		price: `4.22`,
-		img: `../img/menu/cakes/8.png`,
-		description: `Layers of chocolate cake made with cocoa from Ecuador, filled with chocolate and hazelnut creams and hazelnut crunch, covered with a chocolate glaze.`
+		img: `../img/menu/pastries/perashkiPotato.png`,
+		description: `Deep-fried bread stuffed with seasoned mashed potatoes.`
 	},
 	{
-		title: `Espresso Machiato`,
+		title: `UZBEK PUFF`,
 		note: ``,
 		price: `4.25`,
-		img: `../img/menu/cakes/6.png`,
-		description: `Layers of chocolate cake made with cocoa from Ecuador, filled with chocolate and hazelnut creams and hazelnut crunch, covered with a chocolate glaze.`
+		img: `../img/menu/pastries/uzbekPuff.png`,
+		description: `Baked bread stuffed with seasoned halal beef chunks and onions.`
 	},
 	{
-		title: `Iced Latte`,
+		title: `PONCHIK - CUSTARD`,
 		note: ``,
 		price: `4.25`,
-		img: `../img/menu/cakes/4.png`,
-		description: `Layers of chocolate cake made with cocoa from Ecuador, filled with chocolate and hazelnut creams and hazelnut crunch, covered with a chocolate glaze.`
+		img: `../img/menu/pastries/ponchikCustard.png`,
+		description: `Deep-fried bread stuffed with vanilla custard, sprinkled with powdered sugar.`
 	},
 	{
-		title: `Peach Lemonade`,
+		title: `PONCHIK - NUTELLA`,
 		note: ``,
 		price: `6.00`,
-		img: `../img/menu/cakes/9.png`,
-		description: `Layers of chocolate cake made with cocoa from Ecuador, filled with chocolate and hazelnut creams and hazelnut crunch, covered with a chocolate glaze.`
+		img: `../img/menu/pastries/ponchikNutella.png`,
+		description: `Deep-fried bread stuffed with Nutella, sprinkled with powdered sugar.`
 	},
 	{
-		title: `Iced Tea`,
+		title: `PONCHIK - APRICOT JAM`,
 		note: ``,
 		price: `4.25`,
-		img: `../img/menu/cakes/1.png`,
-		description: `Layers of chocolate cake made with cocoa from Ecuador, filled with chocolate and hazelnut creams and hazelnut crunch, covered with a chocolate glaze.`
+		img: `../img/menu/pastries/`,
+		description: `Deep-fried bread stuffed with apricot jam, sprinkled with powdered sugar.`
 	}
 ]

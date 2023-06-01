@@ -25,6 +25,10 @@
 }
 
 .review {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+
 	&__stars img {
 		width: 15px;
 		height: 15px;
@@ -33,22 +37,20 @@
 	&__stars {
 		display: flex;
 		gap: 5px;
-		margin-bottom: $p5;
 		@include av('margin-bottom', $pm5, $pm3, $maxWc, $minWc);
 	}
 
 	&__text {
-		padding: $p2 $p4 $p2 $p2;
+		padding: $p2 $p2 $p2 $p2;
 		overflow: auto;
 		width: 100%;
-		max-height: 80%;
+		max-height: 70%;
 		text-align: start;
 		@include av('margin-bottom', $pm5, $pm4, $maxWc, $minWc);
 	}
 
 	&__author {
 		width: 100%;
-		max-height: 28px;
 		overflow: hidden;
 		text-align: start;
 	}

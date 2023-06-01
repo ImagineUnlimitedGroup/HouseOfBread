@@ -21,6 +21,7 @@
 	&__title {
 		margin-bottom: $p4;
 	}
+
 	@media (max-width: #{$md4 + px}) {
 		&__item {
 			height: 400px;

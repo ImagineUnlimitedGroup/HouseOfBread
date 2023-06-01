@@ -39,13 +39,13 @@
 		@include av('padding', $pm4, $pm3, $maxWc, $minWc)
 	}
 
-	@media (max-width: #{$md2 + px}) {
+	@media (max-width: #{850px}) {
 		&__list {
 			grid-template-columns: repeat(2, 1fr);
 		}
 	}
 
-	@media (max-width: #{$md3 + px}) {
+	@media (max-width: #{550px}) {
 		&__list {
 			grid-template-columns: repeat(1, 1fr);
 		}

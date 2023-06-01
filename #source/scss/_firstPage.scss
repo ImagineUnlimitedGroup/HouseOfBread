@@ -14,7 +14,6 @@
 	}
 
 	&__img {
-		object-fit: cover;
 		flex: 1 1 auto;
 		@include av('width', 700, 400, $maxWc, $md2);
 		@include av('margin-left', $pm4, $pm3, $maxWc, $md2);
