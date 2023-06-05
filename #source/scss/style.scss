@@ -131,7 +131,7 @@ body.lock {
 	max-height: 220px;
 	object-fit: cover;
 	border: 1.5px solid $darkBrown;
-	@include av('margin-bottom', $pm4, $pm3, $maxWc, $minWc)
+	margin-bottom: $p3;
 }
 
 .main {

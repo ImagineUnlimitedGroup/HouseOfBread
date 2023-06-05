@@ -4,66 +4,150 @@ let imgPath = '../img/menu/beverages/beverages.svg'
 
 let itemsArr = [
 	{
-		title: `Cappuchino`,
-		note: ``,
-		price: `4.25`,
+		title: `Espresso`,
+		note: `4 oz`,
+		price: `2.95`,
 		img: ``,
-		description: `Layers of chocolate cake made with cocoa from Ecuador, filled with chocolate and hazelnut creams and hazelnut crunch, covered with a chocolate glaze.`
+		description: ``
 	},
 	{
-		title: `Latte`,
-		note: ``,
-		price: `4.00`,
+		title: `Espresso Macchiato`,
+		note: `4 oz`,
+		price: `3.25`,
 		img: ``,
-		description: `Layers of chocolate cake made with cocoa from Ecuador, filled with chocolate and hazelnut creams and hazelnut crunch, covered with a chocolate glaze.`
+		description: ``
+	},
+	{
+		title: `Americano`,
+		note: `8 oz`,
+		price: `3.95`,
+		img: ``,
+		description: ``
 	},
 	{
 		title: `Flat White`,
-		note: ``,
-		price: `5.00`,
+		note: `8 oz`,
+		price: `4.00`,
 		img: ``,
-		description: `Layers of chocolate cake made with cocoa from Ecuador, filled with chocolate and hazelnut creams and hazelnut crunch, covered with a chocolate glaze.`
+		description: ``
+	},
+	{
+		title: `Latte`,
+		note: `8 oz`,
+		price: `4.22`,
+		img: ``,
+		description: ``
+	},
+	{
+		title: `Cappuccino`,
+		note: `8 oz`,
+		price: `3.95`,
+		img: ``,
+		description: ``
 	},
 	{
 		title: `Mocha`,
-		note: ``,
+		note: `8 oz`,
 		price: `4.25`,
 		img: ``,
-		description: `Layers of chocolate cake made with cocoa from Ecuador, filled with chocolate and hazelnut creams and hazelnut crunch, covered with a chocolate glaze.`
+		description: ``
 	},
 	{
-		title: `Espresso`,
-		note: ``,
-		price: `4.22`,
+		title: `Chai Tea`,
+		note: `8 oz`,
+		price: `4.15`,
 		img: ``,
-		description: `Layers of chocolate cake made with cocoa from Ecuador, filled with chocolate and hazelnut creams and hazelnut crunch, covered with a chocolate glaze.`
+		description: ``
 	},
 	{
-		title: `Espresso Machiato`,
-		note: ``,
+		title: `Hot Chocolate`,
+		note: `8 oz`,
+		price: `3.95`,
+		img: ``,
+		description: ``
+	},
+	{
+		title: `Tea`,
+		note: `8 oz`,
+		price: `3.85`,
+		img: ``,
+		description: ``
+	},
+	{
+		title: `Armenian`,
+		note: `4 oz`,
+		price: `3.95`,
+		img: ``,
+		description: ``
+	},
+	{
+		title: `Iced Americano`,
+		note: `12 oz`,
 		price: `4.25`,
 		img: ``,
-		description: `Layers of chocolate cake made with cocoa from Ecuador, filled with chocolate and hazelnut creams and hazelnut crunch, covered with a chocolate glaze.`
+		description: ``
+	},
+	{
+		title: `Iced Armenian`,
+		note: `12 oz`,
+		price: `4.95`,
+		img: ``,
+		description: ``
+	},
+	{
+		title: `Iced Cappuchino`,
+		note: `12 oz`,
+		price: `4.45`,
+		img: ``,
+		description: ``
 	},
 	{
 		title: `Iced Latte`,
-		note: ``,
-		price: `4.25`,
+		note: `12 oz`,
+		price: `4.55`,
 		img: ``,
-		description: `Layers of chocolate cake made with cocoa from Ecuador, filled with chocolate and hazelnut creams and hazelnut crunch, covered with a chocolate glaze.`
+		description: ``
+	},
+	{
+		title: `Iced MOcha`,
+		note: `12 oz`,
+		price: `4.65`,
+		img: ``,
+		description: ``
+	},
+	{
+		title: `Rose Fresca`,
+		note: `12 oz`,
+		price: `4.45`,
+		img: ``,
+		description: ``
+	},
+	{
+		title: `Pomegranate Lemonade`,
+		note: `12 oz`,
+		price: `4.45`,
+		img: ``,
+		description: ``
 	},
 	{
 		title: `Peach Lemonade`,
-		note: ``,
-		price: `6.00`,
+		note: `12 oz`,
+		price: `4.45`,
 		img: ``,
-		description: `Layers of chocolate cake made with cocoa from Ecuador, filled with chocolate and hazelnut creams and hazelnut crunch, covered with a chocolate glaze.`
+		description: ``
 	},
 	{
-		title: `Iced Tea`,
-		note: ``,
-		price: `4.25`,
+		title: `Mango Lemonade`,
+		note: `12 oz`,
+		price: `4.45`,
 		img: ``,
-		description: `Layers of chocolate cake made with cocoa from Ecuador, filled with chocolate and hazelnut creams and hazelnut crunch, covered with a chocolate glaze.`
+		description: ``
+	},
+	{
+		title: `Blend`,
+		note: `12 oz`,
+		price: `5.25`,
+		img: ``,
+		description: ``
 	}
 ]

@@ -36,16 +36,16 @@
 		display: flex;
 		flex-direction: column;
 		border: 2px solid $darkBrown;
-		@include av('padding', $pm4, $pm3, $maxWc, $minWc)
+		@include av('padding', $pm3, $pm2, $maxWc, $minWc);
 	}
 
-	@media (max-width: #{850px}) {
+	@media (max-width: 850px) {
 		&__list {
 			grid-template-columns: repeat(2, 1fr);
 		}
 	}
 
-	@media (max-width: #{550px}) {
+	@media (max-width: 550px) {
 		&__list {
 			grid-template-columns: repeat(1, 1fr);
 		}
@@ -86,6 +86,12 @@
 	&__img {
 		position: relative;
 		display: block;
+		height: 250px
+	}
+
+	&__img-nf {
+		position: relative;
+		display: block;
 	}
 
 	&__body {
@@ -93,6 +99,7 @@
 		align-items: start;
 		justify-content: space-between;
 		margin-bottom: $pm4;
+		padding-bottom: $p3;
 	}
 
 	&__title {
@@ -121,5 +128,11 @@
 	&__text {
 		font-weight: 400;
 		font-size: 21px;
+	}
+
+	@media (max-width: 550px) {
+		&__img {
+			height: 3000px
+		}
 	}
 }

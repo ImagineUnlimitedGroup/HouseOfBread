@@ -21,28 +21,28 @@ let itemsArr = [
 		title: `CAPPUCCINO CAKE`,
 		note: ``,
 		price: `4.25`,
-		img: `../img/menu/cakes/3.png`,
+		img: `../img/menu/cakes/cappuccino.png`,
 		description: `Alternating layers of espresso drenched chocolate sponge cake and  coffee cream, decorated with cocoa powder.`
 	},
 	{
 		title: `MONTEROSA CAKE`,
 		note: ``,
 		price: `4.75`,
-		img: `../img/menu/cakes/4.png`,
+		img: `../img/menu/cakes/monterosa.png`,
 		description: `A creamy mix of mascarpone  and ricotta cheese, divided by a delicate layer of sponge cake, topped with wild strawberries.`
 	},
 	{
 		title: `TIRAMISU CAKE`,
 		note: ``,
 		price: `4.75`,
-		img: `../img/menu/cakes/5.png`,
+		img: `../img/menu/cakes/tiramisu.png`,
 		description: `Zabaione cake divided by three layers of espresso-soaked sponge cake, finished with a dusting of cocoa powder.`
 	},
 	{
 		title: `PISTACHIO CHEESECAKE`,
 		note: ``,
 		price: `4.50`,
-		img: `../img/menu/cakes/6.png`,
+		img: `../img/menu/cakes/pistachioCheescake.png`,
 		description: `A creamy pistachio cheesecake with pistachio pieces, topped with a light pistachio mousse and sprinkled with pistachios, on a graham cracker base.`
 	},
 	{
@@ -84,7 +84,7 @@ let itemsArr = [
 		title: `LEMON BLUEBERRY CRUMB CHEESECAKE`,
 		note: ``,
 		price: `4.25`,
-		img: `../img/menu/cakes/2.png`,
+		img: `../img/menu/cakes/lemonBlueberry.png`,
 		description: `A graham cracker base topped with a creamy lemon cheesecake and finished with blueberry streusel crumb.`
 	},
 	{
@@ -98,35 +98,35 @@ let itemsArr = [
 		title: `GRANDMOTHERS CAKE`,
 		note: ``,
 		price: `4.25`,
-		img: `../img/menu/cakes/4.png`,
+		img: `../img/menu/cakes/grandmother.png`,
 		description: `Pastry cream with a hint of lemon on a base of shortcrust pastry, covered with pine nuts, almonds, and powdered sugar. `
 	},
 	{
 		title: `CREMA CATALANA`,
 		note: ``,
 		price: `6.00`,
-		img: `../img/menu/cakes/5.png`,
+		img: `../img/menu/cakes/cremaCatalana.png`,
 		description: `Creamy custard topped with caramelized sugar. `
 	},
 	{
 		title: `ESPRESSO CREME BRULEE`,
 		note: ``,
 		price: `6.00`,
-		img: `../img/menu/cakes/6.png`,
+		img: `../img/menu/cakes/espressoCup.png`,
 		description: `Creamy custard flavored with espresso, topped with caramelized sugar. `
 	},
 	{
 		title: `CREME BRULEE WITH BERRIES`,
 		note: ``,
 		price: `6.00`,
-		img: `../img/menu/cakes/7.png`,
+		img: `../img/menu/cakes/berriesCup.png`,
 		description: `A layer of raspberry sauce topped with a creamy custard and decorated with mixed berries, coated in caramel.`
 	},
 	{
 		title: `TIRAMISU CUP`,
 		note: ``,
-		price: `5.00`,
-		img: `../img/menu/cakes/8.png`,
+		price: `6.00`,
+		img: `../img/menu/cakes/tiramisuCup.png`,
 		description: `Coffee and Zabaione cream on a layer of sponge cake soaked in espresso, dusted with cocoa powder.`
 	}
 ]

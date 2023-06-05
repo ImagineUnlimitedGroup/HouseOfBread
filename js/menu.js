@@ -5,6 +5,7 @@ let categoriesArr = [
 	{title: 'MADE TO ORDER', imgPath: './img/menu/madeToOrder/steak.svg', link: './categoriesHtml/madeToOrder.html'},
 	{title: 'SALADS', imgPath: './img/menu/salads/salad.svg', link: './categoriesHtml/salads.html'},
 	{title: 'PASTRIES', imgPath: './img/menu/pastries/pastries.svg', link: './categoriesHtml/pastries.html'},
+	{title: 'SAVORY', imgPath: './img/menu/savory/savory.svg', link: './categoriesHtml/savory.html'},
 	{title: 'CAKES', imgPath: './img/menu/cakes/cakes.svg', link: './categoriesHtml/cakes.html'},
 	{title: 'BEVERAGES', imgPath: './img/menu/beverages/beverages.svg', link: './categoriesHtml/beverages.html'}
 ]

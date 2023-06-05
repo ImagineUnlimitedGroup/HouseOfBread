@@ -6,13 +6,13 @@ let itemsArr = [
 	{
 		title: `RICE PLAV`,
 		note: `35 Min`,
-		price: `8.99`,
+		price: `9.99`,
 		img: `../img/menu/salads/ricePlav.png`,
 		description: `Seasoned rice plav`
 	},
 	{
 		title: `UZBEK PLAV`,
-		note: `< 3 lb`,
+		note: `> 3 lb`,
 		price: `13.99`,
 		img: `../img/menu/salads/`,
 		description: `Plav loaded with beef chunks, carrots, chickpeas, and garlic.`
@@ -28,7 +28,7 @@ let itemsArr = [
 		title: `EGGPLANT CAVIAR`,
 		note: `1 lb`,
 		price: `9.99`,
-		img: `..img/menu/salads/eggplantCaviar.png`,
+		img: `../img/menu/salads/eggplantCaviar.png`,
 		description: `Pureed eggplant dip with spices. No sides included.`
 	},
 	{

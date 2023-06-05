@@ -15,7 +15,7 @@ let itemsArr = [
 		note: `6 pieces`,
 		price: `18.00`,
 		img: `../img/menu/madeToOrder/khinkali.png`,
-		description: `Georgian dumplings stuffed with a seasoned beef patty. 6 pieces per order.`
+		description: `Georgian dumplings stuffed with a seasoned beef patty.`
 	},
 	{
 		title: `VEGETARIAN PLATE`,
@@ -62,7 +62,7 @@ let itemsArr = [
 	{
 		title: `LAHMAJUN - HALAL BEEF`,
 		note: `15 min`,
-		price: `2.45`,
+		price: `2.25`,
 		img: `../img/menu/madeToOrder/lamajun.png`,
 		description: `Thin, round dough topped with Halal beef, herbs, and spices, baked to a golden crisp.`
 	},
