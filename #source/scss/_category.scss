@@ -10,13 +10,34 @@
 	&.ab {
 		display: none;
 	}
+
+	&__container {
+		display: flex;
+		justify-content: start;
+		align-items: center;
+		gap: $p3;
+	}
+
+	&__body {
+		flex: 1 1 auto;
+	}
+
+	&__button {
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 16px;
+		line-height: 27px;
+		letter-spacing: 0.10em;
+
+		color: $creamyBrown;
+		background-color: $lightBrown;
+		display: inline-block;
+		padding: $p1 $p4;
+	}
 }
 
-.bread-crumbs__container {
-	display: flex;
-	justify-content: start;
-	gap: $p3;
-}
+
 
 
 .category-menu {

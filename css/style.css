@@ -1047,11 +1047,26 @@ body.lock {
 .bread-crumbs.ab {
   display: none;
 }
-
 .bread-crumbs__container {
   display: flex;
   justify-content: start;
+  align-items: center;
   gap: 10px;
+}
+.bread-crumbs__body {
+  flex: 1 1 auto;
+}
+.bread-crumbs__button {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  color: #FFFCEF;
+  background-color: #5A3300;
+  display: inline-block;
+  padding: 2px 20px;
 }
 
 .category-menu__title {
