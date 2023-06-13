@@ -471,7 +471,7 @@ body.lock {
   opacity: 1;
   margin: 5px;
 }
-@media (max-width: 479.98px) {
+@media (max-width: 424.98px) {
   .splide__pagination__page.is-active {
     width: 10px;
     height: 10px;
@@ -766,7 +766,7 @@ body.lock {
 .aboutUS__title {
   margin-bottom: 20px;
 }
-@media (max-width: 359.98px) {
+@media (max-width: 374.98px) {
   .aboutUS__item {
     height: 400px;
   }
@@ -936,7 +936,7 @@ body.lock {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (max-width: 479.98px) {
+@media (max-width: 424.98px) {
   .catering-menu__list {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -1008,7 +1008,7 @@ body.lock {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (max-width: 479.98px) {
+@media (max-width: 424.98px) {
   .categories-menu__list {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -1385,7 +1385,7 @@ body.lock {
     display: none;
   }
 }
-@media (max-width: 359.98px) {
+@media (max-width: 374.98px) {
   .copyright__container {
     display: block;
   }
