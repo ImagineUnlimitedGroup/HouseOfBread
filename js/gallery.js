@@ -11,7 +11,7 @@ for (let i = 1; i <= photosAmount; i++) {
 
 	imgPath = './img/404V.svg'
 	
-	let template = `<img src="./img/gallery/${i}.png" alt="${i}" onError="this.src='${imgPath}'">`
+	let template = `<img src="./img/gallery/${i}.webp" alt="${i}" onError="this.src='${imgPath}'">`
 	
 	element.innerHTML = template
 	photosList.appendChild(element)
