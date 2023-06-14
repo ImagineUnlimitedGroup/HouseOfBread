@@ -24,7 +24,7 @@
 		}
 	}
 
-	@media (max-width: #{$md3 + px}) {
+	@media (max-width: 550px) {
 		&__list {
 			grid-template-columns: repeat(1, 1fr);
 		}
