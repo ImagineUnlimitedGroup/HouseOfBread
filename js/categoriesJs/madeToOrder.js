@@ -39,6 +39,13 @@ let itemsArr = [
 		description: `A baked bread boat with feta and mozzarella cheese, topped with two easy-baked eggs, and lined with Armenian-style beef prosciutto. `
 	},
 	{
+		title: `AJARSKI KHACHAPURI - SPINACH`,
+		note: `20 min`,
+		price: `17.49`,
+		img: `../img/menu/madeToOrder/ajarskiSpinach.webp`,
+		description: `A baked bread boat with feta and mozzarella cheese, topped with two easy-baked eggs, and lined with spinach and onions. `
+	},
+	{
 		title: `AJARSKI KHACHAPURI - TOMATO`,
 		note: `20 min`,
 		price: `17.49`,
