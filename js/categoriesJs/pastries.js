@@ -6,7 +6,7 @@ let itemsArr = [
 	{
 		title: `NAPOLEON`,
 		note: ``,
-		price: `3.25`,
+		price: `3.50`,
 		img: `../img/menu/pastries/napoleon.webp`,
 		description: `Triple layered puff pastry spread with our signature vanilla custard cream, covered in its own crumbs, topped with powdered sugar. `
 	},
@@ -41,14 +41,14 @@ let itemsArr = [
 	{
 		title: `PONCHIK - CUSTARD`,
 		note: ``,
-		price: `4.25`,
+		price: `3.75`,
 		img: `../img/menu/pastries/ponchikCustard.webp`,
 		description: `Deep-fried bread stuffed with vanilla custard, sprinkled with powdered sugar.`
 	},
 	{
 		title: `PONCHIK - NUTELLA`,
 		note: ``,
-		price: `6.00`,
+		price: `4.25`,
 		img: `../img/menu/pastries/ponchikNutella.webp`,
 		description: `Deep-fried bread stuffed with Nutella, sprinkled with powdered sugar.`
 	},

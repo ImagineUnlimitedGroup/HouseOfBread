@@ -49,7 +49,7 @@ let itemsArr = [
 		title: `SPINACH AND FETTA CROISSANT`,
 		note: ``,
 		price: `6.25`,
-		img: `../`,
-		description: `Deep-fried bread stuffed with vanilla custard, sprinkled with powdered sugar.`
+		img: `../img/menu/savory/`,
+		description: `Croissant filled with spinach and feta cheese`
 	}
 ]

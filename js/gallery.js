@@ -1,6 +1,6 @@
 const photosList = document.getElementById('gallery-slider__list')
 
-let photosAmount = 14
+let photosAmount = 17
 let sliderPerPage = 4
 // Генерируем все картинки
 for (let i = 1; i <= photosAmount; i++) {

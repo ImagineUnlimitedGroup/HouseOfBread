@@ -10,11 +10,12 @@
 
 	&__title {
 		grid-area: 1 / 1 / 1 / 3;
+		text-transform: uppercase;
 		font-weight: 800;
-		@include av('font-size', 110, 46, $maxWc, $minWc);
+		@include av('font-size', 100, 44, $maxWc, $minWc);
 		@include av('line-height', 120, 80, $maxWc, $minWc);
 		letter-spacing: 0.025em;
-		@include av('margin-bottom', $pm5, $pm4, $maxWc, $minWc);
+		@include av('margin-bottom', $pm4, $pm3, $maxWc, $minWc);
 	}
 
 	&__subtitle {
@@ -34,7 +35,7 @@
 		object-fit: cover;
 		height: 100%;
 		width: 100%;
-		max-height: 550px;
+		max-height: 500px;
 		border: 2px solid $darkBrown;
 	}
 
@@ -60,6 +61,7 @@
 			display: block;
 
 		}
+
 		&__title {
 			margin-top: $p3;
 		}

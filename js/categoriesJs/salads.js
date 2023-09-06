@@ -11,13 +11,6 @@ let itemsArr = [
 		description: `Seasoned rice plav`
 	},
 	{
-		title: `UZBEK PLAV`,
-		note: `> 3 lb`,
-		price: `13.99`,
-		img: `../img/menu/salads/`,
-		description: `Plav loaded with beef chunks, carrots, chickpeas, and garlic.`
-	},
-	{
 		title: `AJIKA`,
 		note: `1 lb`,
 		price: `9.99`,

@@ -11,42 +11,28 @@ let itemsArr = [
 		description: `Thin grilled flatbread stuffed with 22+ greens and herbs.`
 	},
 	{
-		title: `KHINKALI DUMPLINGS`,
-		note: `6 pieces`,
-		price: `18.00`,
-		img: `../img/menu/madeToOrder/khinkali.webp`,
-		description: `Georgian dumplings stuffed with a seasoned beef patty.`
-	},
-	{
-		title: `VEGETARIAN PLATE`,
-		note: `35 min`,
-		price: `15.99`,
-		img: `../img/menu/madeToOrder/`,
-		description: `5 piece vegetarian tolma, rice plav, grilled vegetable salad, hummus, and bread. `
-	},
-	{
-		title: `AJARSKI KHACHAPURI`,
+		title: `AJARSKI KHACHAPURI*`,
 		note: `15 min`,
 		price: `13.99`,
 		img: `../img/menu/madeToOrder/ajarski.webp`,
 		description: `A baked bread boat with feta and mozzarella cheese, topped with two easy-baked eggs.`
 	},
 	{
-		title: `AJARSKI KHACHAPURI - BASTURMA`,
+		title: `AJARSKI KHACHAPURI - BASTURMA*`,
 		note: `20 min`,
 		price: `17.49`,
 		img: `../img/menu/madeToOrder/ajarskiBasturma.webp`,
 		description: `A baked bread boat with feta and mozzarella cheese, topped with two easy-baked eggs, and lined with Armenian-style beef prosciutto. `
 	},
 	{
-		title: `AJARSKI KHACHAPURI - SPINACH`,
+		title: `AJARSKI KHACHAPURI - SPINACH*`,
 		note: `20 min`,
 		price: `17.49`,
 		img: `../img/menu/madeToOrder/ajarskiSpinach.webp`,
 		description: `A baked bread boat with feta and mozzarella cheese, topped with two easy-baked eggs, and lined with spinach and onions. `
 	},
 	{
-		title: `AJARSKI KHACHAPURI - TOMATO`,
+		title: `AJARSKI KHACHAPURI - TOMATO*`,
 		note: `20 min`,
 		price: `17.49`,
 		img: `../img/menu/madeToOrder/ajarskiTomato.webp`,
@@ -55,7 +41,7 @@ let itemsArr = [
 	{
 		title: `AJARSKI KHACHAPURI - NUTELLA & FRUIT`,
 		note: `15 min`,
-		price: `18.99`,
+		price: `26.99`,
 		img: `../img/menu/madeToOrder/ajarskiNutella.webp`,
 		description: `A baked bread with a load of Nutella, topped with various fruit, sprinkled with powdered sugar and drizzled in chocolate syrup. `
 	},
@@ -88,6 +74,13 @@ let itemsArr = [
 		description: `Thin, round dough topped with oregano, thyme, and sesame seeds olive oil mixture, baked to a golden crisp.`
 	},
 	{
+		title: `KHINKALI DUMPLINGS`,
+		note: `6 pieces`,
+		price: `18.00`,
+		img: `../img/menu/madeToOrder/khinkali.webp`,
+		description: `Georgian dumplings stuffed with a seasoned beef patty.`
+	},
+	{
 		title: `SINI MANTE`,
 		note: `25 min`,
 		price: `17.99`,
@@ -100,6 +93,13 @@ let itemsArr = [
 		price: `16.00`,
 		img: `../img/menu/madeToOrder/ishliKyufta.webp`,
 		description: `Boiled meat-stuffed bulgur.`
+	},
+	{
+		title: `VEGETARIAN PLATE`,
+		note: `35 min`,
+		price: `15.99`,
+		img: `../img/menu/madeToOrder/`,
+		description: `5 piece vegetarian tolma, rice plav, grilled vegetable salad, hummus, and bread. `
 	},
 	{
 		title: `LAMB CHOP SHASHLIK / KHOROVATS`,
@@ -149,5 +149,12 @@ let itemsArr = [
 		price: `11.99`,
 		img: `../img/menu/madeToOrder/`,
 		description: `MINIMUM 8 POUND ORDER REQUIRED. WEEKENDS ONLY. Price is for raw weight.`
+	},
+	{
+		title: `UZBEK PLAV`,
+		note: `> 3 lb`,
+		price: `13.99`,
+		img: `../img/menu/salads/`,
+		description: `Plav loaded with beef chunks, carrots, chickpeas, and garlic.`
 	}
 ]

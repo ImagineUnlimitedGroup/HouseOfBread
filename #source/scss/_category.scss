@@ -23,17 +23,16 @@
 	}
 
 	&__button {
-		font-family: 'Open Sans';
-		font-style: normal;
-		font-weight: 800;
-		font-size: 16px;
-		line-height: 27px;
-		letter-spacing: 0.10em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: $p1 $p3;
 
-		color: $creamyBrown;
 		background-color: $lightBrown;
-		display: inline-block;
-		padding: $p1 $p4;
+	}
+
+	&__icon {
+		width: 28px;
 	}
 }
 
@@ -155,5 +154,17 @@
 		&__img {
 			height: 3000px
 		}
+	}
+}
+
+.category-menu__warning {
+	border: 2px solid $darkBrown;
+	@include av('padding', $pm6, $pm4, $maxWc, $minWc);
+
+	p {
+		max-width: 80%;
+		font-size: 24px;
+		text-align: center;
+		margin: 0 auto;
 	}
 }
